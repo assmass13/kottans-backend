@@ -2,4 +2,4 @@
 ## Git and GitHub
 I was impressed with easy way of providing information of Git in Udacity course.
 
-![](image.png)
+![](task-1/udacity-course-results.png)
