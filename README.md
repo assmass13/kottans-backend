@@ -25,6 +25,6 @@ I was impressed with easy way of providing information of Git in Udacity course.
 ![](node_basic_1/node-basics-2.png)
 ![](node_basic_1/node-basics-3.png)
 
-1. Second and third workshop
+1. Second and third workshops
 2. How we can scoff at anything using prototype
 3. Pipes
