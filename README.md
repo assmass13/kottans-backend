@@ -28,3 +28,19 @@ I was impressed with easy way of providing information of Git in Udacity course.
 1. Second and third workshops
 2. How we can scoff at anything using prototype
 3. Pipes
+
+## Memory Management
+
+`- What's going to happen if program reaches maximum limit of stack ?`
+
+If the maximum stack size has been reached, we have a stack overflow and the program receives a Segmentation Fault.
+
+
+`- What's going to happen if program requests a big (more then 128KB) memory allocation on heap ?`
+
+If there is enough space in the heap to satisfy a memory request, it can be handled by the language runtime without kernel involvement. Otherwise the heap is enlarged via the brk() system call (implementation) to make room for the requested block. 
+
+`- What's the difference between Text and Data memory segments ?`
+
+The data segment holds the contents for static variables initialized in source code.
+The string lives in the text segment, which is read-only and stores all of your code in addition to tidbits like string literals. 
