@@ -48,7 +48,7 @@ I was impressed with easy way of providing information of Git in Udacity course.
 
 
 2.
-	   ```md
+```md
 ==== regions for process 2489  (non-writable and writable regions are interleaved)
 REGION TYPE                      START - END             [ VSIZE  RSDNT  DIRTY   SWAP] PRT/MAX SHRMOD PURGE    REGION DETAIL
 __TEXT                 000000010a4b1000-000000010a4b8000 [     7      7      0      0] r-x/rwx SM=COW          /Applications/Docker.app/Contents/Resources/bin/docker-compose
@@ -78,9 +78,11 @@ MALLOC_SMALL           00007fcef6000000-00007fcef6800000 [  2048      1      1  
 MALLOC_SMALL (empty)   00007fcef6800000-00007fcef7800000 [  4096      2      2     33] rw-/rwx SM=COW          DefaultMallocZone_0x10ad95000
 STACK GUARD            00007ffee174f000-00007ffee4f4f000 [ 14336      0      0      0] ---/rwx SM=NUL          stack guard for thread 0
 Stack                  00007ffee4f4f000-00007ffee574f000 [  2048      1      1      3] rw-/rwx SM=PRV          thread 0
-   ```
 
-	*Memory Mapping Segment, Heap and Stack fragments address:*
-	- `HEAP - 000000010aeb9000-000000010b802000`
-	- `STACK - 00007ffee4f4f000-00007ffee574f000`
-	- `MMS - 0000000112df4000-0000000112e5f000`
+```
+
+
+*Memory Mapping Segment, Heap and Stack fragments address:*
+- `HEAP - 000000010aeb9000-000000010b802000`
+- `STACK - 00007ffee4f4f000-00007ffee574f000`
+- `MMS - 0000000112df4000-0000000112e5f000`
