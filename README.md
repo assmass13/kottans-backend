@@ -91,3 +91,8 @@ Stack                  00007ffee4f4f000-00007ffee574f000 [  2048      1      1  
 	1. How virtual memory is structured.
 	2. We can use built-in utilities to see virtual memory segments of particular process.
 	3. Garbage collectors working principals.
+
+
+## TCP. UDP. Network
+
+![](task_networks/internet-101.png)
