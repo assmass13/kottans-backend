@@ -98,3 +98,7 @@ Stack                  00007ffee4f4f000-00007ffee574f000 [  2048      1      1  
 ![](task_networks/network-1.png)
 ![](task_networks/network-2.png)
 ![](task_networks/network-3.png)
+
+1. How internet is constructed.
+2. The transfer of information through the internet.
+3. DNS lib
