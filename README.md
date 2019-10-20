@@ -125,15 +125,15 @@ Stack                  00007ffee4f4f000-00007ffee574f000 [  2048      1      1  
 
 3. `- You are creating and application for pet clinic. You need to implement the following functionality:`
 
-	1. Request: POST /pets {'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': [string, ...]}
-	   Response: 201 {'id': int, 'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': [string, ...]}
-	2. Request: GET /pets?name=string
-	   Response: 200 [{'id': int, 'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': string}, ...]
-	3. Request: PATCH /pets/<pet_id:int> {'name': string}
-	   Response: 200 {'id': int, 'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': [string, ...]}
-	4. Request: PATCH /pets/<pet_id:int> {'medicalHistory': [string, ...]}
-	   Response: 200 {'id': int, 'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': [string, ...]}
-	5. Request: PATCH /doctors/<doctor_id:int> {'assignedPets': [int, ...]}
-	   Response: 200 {'id': int, 'name': string, ..., 'assignedPets': [int, ...]}
-	6. Request: POST /appointments {'petId': int, 'doctorId': int, 'startDateTime': string(date), 'endDateTime': string(date), 'description': string}
-	   Response: 201 {'id': int, 'petId': int, 'doctorId': int, 'startDateTime': string(date), 'endDateTime': string(date), 'description': string}
+	1. Request: `POST /pets {'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': [string, ...]}`
+	   Response: `201 {'id': int, 'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': [string, ...]}`
+	2. Request: `GET /pets?name=string` 
+	   Response: `200 [{'id': int, 'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': string}, ...]`
+	3. Request: `PATCH /pets/<pet_id:int> {'name': string}`
+	   Response: `200 {'id': int, 'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': [string, ...]}`
+	4. Request: `PATCH /pets/<pet_id:int> {'medicalHistory': [string, ...]}`
+	   Response: `200 {'id': int, 'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': [string, ...]}`
+	5. Request: `PATCH /doctors/<doctor_id:int> {'assignedPets': [int, ...]}`
+	   Response: `200 {'id': int, 'name': string, ..., 'assignedPets': [int, ...]}`
+	6. Request: `POST /appointments {'petId': int, 'doctorId': int, 'startDateTime': string(date), 'endDateTime': string(date), 'description': string}`
+	   Response: `201 {'id': int, 'petId': int, 'doctorId': int, 'startDateTime': string(date), 'endDateTime': string(date), 'description': string}`
