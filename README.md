@@ -102,3 +102,12 @@ Stack                  00007ffee4f4f000-00007ffee574f000 [  2048      1      1  
 1. How internet is constructed.
 2. The transfer of information through the internet.
 3. dns and net libs
+
+## Http & Https
+
+*Requests:*
+- `curl https://api.github.com/users/assmass13`
+- `curl -i https://api.github.com/users/assmass13`
+- `curl --user "assmass13:*******" https://api.github.com/gists/starred`
+- `curl --user "assmass13" https://api.github.com/gists/starred`
+- `curl -i https://api.github.com/orgs/kottans/repos`
