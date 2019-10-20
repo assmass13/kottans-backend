@@ -108,6 +108,32 @@ Stack                  00007ffee4f4f000-00007ffee574f000 [  2048      1      1  
 *Requests:*
 - `curl https://api.github.com/users/assmass13`
 - `curl -i https://api.github.com/users/assmass13`
-- `curl --user "assmass13:*******" https://api.github.com/gists/starred`
+- `curl --user "assmass13:*********" https://api.github.com/gists/starred`
 - `curl --user "assmass13" https://api.github.com/gists/starred`
 - `curl -i https://api.github.com/orgs/kottans/repos`
+- `curl -H 'Authorization: *********' https://api.github.com/repos/assmass13/kottans-backend/issues -d '{"title": "Issue for HTTP/HTTPS task"}'`
+
+1. `- Name at least three possible negative consequences of not using https.`
+
+	Due of lack of encryption your data can be intercepted, then it can be read or modified. Also https assures you that you talk with verified source(not phishing website).
+
+
+2. `- Explain the main idea behind public key cryptography in few sentences.`
+
+	If you need to send data securely, you can use asymetric keys. Encrypt data with receiver's public key, therefore it can be decrypted only with related private key which only end user has.
+
+
+3. `- You are creating and application for pet clinic. You need to implement the following functionality:`
+
+	1. Request: POST /pets {'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': [string, ...]}
+	   Response: 201 {'id': int, 'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': [string, ...]}
+	2. Request: GET /pets?name=string
+	   Response: 200 [{'id': int, 'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': string}, ...]
+	3. Request: PATCH /pets/<pet_id:int> {'name': string}
+	   Response: 200 {'id': int, 'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': [string, ...]}
+	4. Request: PATCH /pets/<pet_id:int> {'medicalHistory': [string, ...]}
+	   Response: 200 {'id': int, 'name': string, 'age': int, 'breed': string, 'ownerName': string, 'medicalHistory': [string, ...]}
+	5. Request: PATCH /doctors/<doctor_id:int> {'assignedPets': [int, ...]}
+	   Response: 200 {'id': int, 'name': string, ..., 'assignedPets': [int, ...]}
+	6. Request: POST /appointments {'petId': int, 'doctorId': int, 'startDateTime': string(date), 'endDateTime': string(date), 'description': string}
+	   Response: 201 {'id': int, 'petId': int, 'doctorId': int, 'startDateTime': string(date), 'endDateTime': string(date), 'description': string}
