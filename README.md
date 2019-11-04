@@ -146,5 +146,6 @@ Stack                  00007ffee4f4f000-00007ffee574f000 [  2048      1      1  
 
 
 ## File System
-[a relative link](file_system/secret.txt)
-[a relative link](file_system/file_system_task.js)
+[secret.txt](file_system/secret.txt)
+
+[file_system_task.js](file_system/file_system_task.js)
