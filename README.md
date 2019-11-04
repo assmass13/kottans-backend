@@ -145,3 +145,6 @@ Stack                  00007ffee4f4f000-00007ffee574f000 [  2048      1      1  
 	   Response: `201 {'id': int, 'petId': int, 'doctorId': int, 'startDateTime': string(date), 'endDateTime': string(date), 'description': string}`
 
 
+## File System
+![](file_system/secret.txt)
+![](file_system/file_system_task.js)
